@@ -5,7 +5,7 @@
 <title> Quiz App</title>
 <link rel="stylesheet" href= "./assets/style.css"/>
 </head>
-<body>
+<body class="flex"> 
 <div class ="wrapper">
     <div class = "quiz container">
         <div class = "quiz-head">
@@ -14,7 +14,9 @@
             <span id="correct score">0</span>/<span id = "total question">10</span>
     </div>
     <div class = "quiz-body">
-        <h2 class = "quiz-question" id = "question"> Question 1 </h2>
+        <h2 class = "quiz-question" id = "question"> Question 1 <br> <span class = 
+        category>Web API Quiz</span>
+    </h2>
         <ul class = "quiz options">
         <li>1.</li>
         <li>2. </li>
@@ -29,7 +31,7 @@
          <button id= "check-answer"> Check Answer
 
          </button>    
-         <button type = "button" id = "play-again" >Play Again!</button>
+         <button type = "button" id = "start-over" >Start Over</button>
         </div>
 </body>
 </html>
